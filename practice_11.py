@@ -13,7 +13,8 @@ for subject, score in scores.items():
 for num in range (0,100):
     print("대기번호 : " +str(num).zfill(3))
 
-answer = input("아무 값이나 입력해주세요 : ")  
+answer = input("아무 값이나 입력해주세요 : ")  # input으로 넣으면 무조건 str로 받는다.
 print(type(answer))  
+
 
 
